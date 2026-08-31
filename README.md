@@ -37,22 +37,9 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 * 🎯 **Focus:** Building executive-ready BI dashboards and actionable KPI frameworks
 * 🌍 **Location:** Delhi, India — Open to Data Analyst & BI Developer roles
 
----
-
----
-
-[![Fatima's GitHub stats](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA)](https://github.com/Fatima-Zehra-DA/github-readme-stats)
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 
-[![Fatima's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Fatima-Zehra-DA&theme=github-dark)](https://github.com/ashutosh00712/github-readme-activity-graph)
 
-<!-- Streaks -->
-![Fatima's GitHub Streak](https://streak-stats.demolab.com/?user=Fatima-Zehra-DA&theme=dark)
-
-
-![Snake Animation](https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.svg)
 
 ## Technical Toolkit
 
@@ -90,11 +77,27 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 ## GitHub Statistics
 
+<!-- 
+[![Fatima's GitHub stats](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA)](https://github.com/Fatima-Zehra-DA/github-readme-stats)
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+
+
+[![Fatima's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Fatima-Zehra-DA&theme=github-dark)](https://github.com/ashutosh00712/github-readme-activity-graph)
+
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true" height="150" />
 </div>
 
+-->
+
+
+<!-- Streaks -->
+![Fatima's GitHub Streak](https://streak-stats.demolab.com/?user=Fatima-Zehra-DA&theme=dark)
+
+![Snake Animation](https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.svg)
 ---
 
 ## Let's Connect
