@@ -65,16 +65,16 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>◈ Sales Intelligence Hub</h3>
-      <p>Executive sales & profitability dashboard providing commercial visibility across product categories, customer segments, and regions.</p>
-      <p><b>Tech Stack:</b> Power BI · DAX · SQL · Python</p>
-      <a href="https://github.com/yourusername/project-repo"><b>Explore Case Study →</b></a>
+      <h3>◈ Retail Sales Analysis</h3>
+      <p>Analyzed 2,000 retail transactions ($911K revenue) using PostgreSQL and Power BI. Applied advanced SQL (CTEs, window functions) to evaluate revenue growth and demographics, building an interactive dashboard to track core KPIs and guide business strategy.</p>
+      <p><b>Tech Stack:</b> SQL . Excel . Power BI · DAX  </p>
+      <a href="https://github.com/Fatima-Zehra-DA/sql_retail_sales_project_001"><b>Explore Case Study →</b></a>
     </td>
     <td width="50%" valign="top">
       <h3>◈ Customer Churn & Retention Analysis</h3>
-      <p>Exploratory data analysis and predictive modeling to identify high-risk customer segments and recommend retention strategies.</p>
+      <p>Analyzed telecom customer attrition across 7,000+ records using Power BI, DAX, and Power Query. Engineered features and built an executive dashboard identifying key churn drivers—such as month-to-month contracts—to deliver data-driven retention strategies.</p>
       <p><b>Tech Stack:</b> Python · Pandas · SQL · Tableau</p>
-      <a href="https://github.com/yourusername/project-repo"><b>Explore Case Study →</b></a>
+      <a href="https://github.com/Fatima-Zehra-DA/Customer-Churn-Analysis--PowerBI-"><b>Explore Case Study →</b></a>
     </td>
   </tr>
 </table>
@@ -84,8 +84,8 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 ## GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true" height="150" />
 </div>
 
 ---
