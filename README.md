@@ -41,13 +41,8 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 [![Fatima's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Fatima-Zehra-DA&theme=github-dark)](https://github.com/ashutosh00712/github-readme-activity-graph)
 
-
-
-![Fatima's GitHub Streak](https://streak-stats.demolab.com/?user=Fatima-Zehra-DA&theme=radial&hide_border=true)
-
-
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=Fatima-Zehra-DA&theme=dark)
+<!-- Streaks -->
+![Fatima's GitHub Streak](https://streak-stats.demolab.com/?user=Fatima-Zehra-DA&theme=dark)
 
 
 ![Snake Animation](https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.svg)
