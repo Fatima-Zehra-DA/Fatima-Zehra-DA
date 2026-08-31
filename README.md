@@ -52,7 +52,7 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
 </div>
 
----
+
 
 ## Featured Projects
 
@@ -97,12 +97,18 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 <!-- Streaks -->
 ![Fatima's GitHub Streak](https://streak-stats.demolab.com/?user=Fatima-Zehra-DA&theme=dark)
 
+<!--
 ![Snake Animation](https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.svg)
----
+-->
+
+
+<!--
 
 ## Let's Connect
 
 * 💬 Reach out via [LinkedIn](https://linkedin.com/in/your-linkedin-handle) or directly by [Email](mailto:your-email@gmail.com) to discuss data analytics opportunities or collaboration!
+-->
+
 
 <!--
 **Fatima-Zehra-DA/Fatima-Zehra-DA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
