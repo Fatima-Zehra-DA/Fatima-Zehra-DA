@@ -9,15 +9,22 @@
 
 <!-- QUICK LINKS / BADGES -->
 <div align="center">
-  <a href="https://linkedin.com/in/your-linkedin-handle">
+  <a href="https://linkedin.com/in/fatima-zehra-308b85358/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://kaggle.com/your-kaggle-handle">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
-  </a>
-  <a href="mailto:your-email@gmail.com">
+
+<a ref="https://public.tableau.com/app/profile/fatima.zehra7709/vizzes">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
+</a>
+
+  <a href="mailto:fatimazehra2305@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <!--
+   <a href="https://kaggle.com/your-kaggle-handle">
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
+  </a>
+  -->
 </div>
 
 <br />
