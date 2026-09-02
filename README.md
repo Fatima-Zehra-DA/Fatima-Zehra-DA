@@ -66,12 +66,14 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/retail-sales.png">
       <h3>◈ Retail Sales Analysis</h3>
       <p>Analyzed 2,000 retail transactions ($911K revenue) using PostgreSQL and Power BI. Applied advanced SQL (CTEs, window functions) to evaluate revenue growth and demographics, building an interactive dashboard to track core KPIs and guide business strategy.</p>
       <p><b>Tech Stack:</b> SQL . Excel . Power BI · DAX  </p>
       <a href="https://github.com/Fatima-Zehra-DA/sql_retail_sales_project_001"><b>Explore Case Study →</b></a>
     </td>
     <td width="50%" valign="top">
+      <img src="assets/churn-analysis.png">
       <h3>◈ Customer Churn & Retention Analysis</h3>
       <p>Analyzed telecom customer attrition across 7,000+ records using Power BI, DAX, and Power Query. Engineered features and built an executive dashboard identifying key churn drivers—such as month-to-month contracts—to deliver data-driven retention strategies.</p>
       <p><b>Tech Stack:</b> Python · Pandas · SQL · Tableau</p>
