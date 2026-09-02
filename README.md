@@ -7,6 +7,7 @@
   <img src="assets/profile-banner.svg" width="100%" />
 </div>
 
+<br>
 <!-- QUICK LINKS / BADGES -->
 <div align="center">
   <a href="https://linkedin.com/in/fatima-zehra-308b85358/">
@@ -27,7 +28,7 @@
   -->
 </div>
 
-<br />
+<br/>
 
 ## About Me
 
@@ -38,7 +39,13 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 * 🌍 **Location:** Delhi, India — Open to Data Analyst & BI Developer roles
 
 
+## Workflow
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workflow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/workflow.svg">
+  <img src="assets/workflow.svg" alt="End-to-End Data Analytics Workflow" width="100%">
+</picture>
 
 
 ## Technical Toolkit
