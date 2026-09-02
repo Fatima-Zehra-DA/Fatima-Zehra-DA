@@ -97,6 +97,8 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 <!-- Streaks -->
 ![Fatima's GitHub Streak](https://streak-stats.demolab.com/?user=Fatima-Zehra-DA&theme=dark)
 
+![Snake Animation](https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.svg)
+
 <!--
 ![Snake Animation](https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.svg)
 -->
