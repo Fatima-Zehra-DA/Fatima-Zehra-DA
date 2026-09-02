@@ -4,7 +4,7 @@
 
 <!-- HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Fatima%20Zehra&fontSize=42&fontAlignY=38&desc=Data%20Analyst%20%7C%20Power%20BI%20%C2%B7%20SQL%20%C2%B7%20Python%20%C2%B7%20Excel&descAlignY=62&descScale=18" width="100%" />
+  <img src="assets/profile-banner.svg" width="100%" />
 </div>
 
 <!-- QUICK LINKS / BADGES -->
