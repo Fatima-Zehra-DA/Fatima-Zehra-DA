@@ -1,0 +1,553 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="100%" height="100%" id="banner-svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A0F" />
+      <stop offset="50%" stop-color="#0C1119" />
+      <stop offset="100%" stop-color="#101826" />
+    </linearGradient>
+
+    <!-- Interactive Cursor Spotlight Gradient -->
+    <radialGradient id="cursorSpotlight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#AAFF4D" stop-opacity="0.22" />
+      <stop offset="35%" stop-color="#69FF3D" stop-opacity="0.10" />
+      <stop offset="70%" stop-color="#0C1119" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#0C1119" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Chart Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#69FF3D" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#AAFF4D" />
+      <stop offset="100%" stop-color="#E8FF48" />
+    </linearGradient>
+
+    <!-- Chart Area Fill Gradient -->
+    <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#69FF3D" stop-opacity="0.2" />
+      <stop offset="60%" stop-color="#AAFF4D" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#0C1119" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Subtle Background Glow -->
+    <linearGradient id="sweepGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#69FF3D" stop-opacity="0" />
+      <stop offset="50%" stop-color="#AAFF4D" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#69FF3D" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Floating Ambient Orbs Gradient -->
+    <radialGradient id="orbGrad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#69FF3D" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#69FF3D" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbGrad2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8FF48" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#E8FF48" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Dynamic Highlight Shimmer Gradient for Main Text -->
+    <linearGradient id="textHighlightGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5F7FB">
+        <animate attributeName="stop-color" 
+          values="#F5F7FB; #F5F7FB; #E8FF48; #F5F7FB; #F5F7FB" 
+          keyTimes="0; 0.35; 0.5; 0.65; 1" 
+          dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#F5F7FB">
+        <animate attributeName="stop-color" 
+          values="#F5F7FB; #E8FF48; #AAFF4D; #F5F7FB; #F5F7FB" 
+          keyTimes="0; 0.3; 0.5; 0.7; 1" 
+          dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#F5F7FB">
+        <animate attributeName="stop-color" 
+          values="#F5F7FB; #F5F7FB; #69FF3D; #F5F7FB; #F5F7FB" 
+          keyTimes="0; 0.4; 0.55; 0.75; 1" 
+          dur="7s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glow Filter for Data Nodes -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Text Highlight Bloom Filter -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* Interactive Spotlight Styles */
+    #spotlight-disc {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.4s ease-out;
+      mix-blend-mode: screen;
+    }
+    #banner-svg:hover #spotlight-disc {
+      opacity: 1;
+    }
+
+    /* Typography */
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 700;
+      font-size: 42px;
+      letter-spacing: 5px;
+      fill: url(#textHighlightGrad);
+      filter: url(#textGlow);
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      font-size: 11px;
+      letter-spacing: 2.5px;
+      fill: #69FF3D;
+    }
+    .tagline {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      fill: #D0D4DC;
+    }
+    .tech-stack {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+      letter-spacing: 3px;
+      fill: #8A94A6;
+    }
+    .chart-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 9px;
+      fill: #4E5D78;
+      letter-spacing: 1px;
+    }
+    .step-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 7.5px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      fill: #8A94A6;
+      text-anchor: middle;
+    }
+
+    /* Keyframe Animations */
+    @keyframes textSlideFade {
+      0% {
+        opacity: 0;
+        transform: translateX(-16px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes textShimmerWave {
+      0%, 100% {
+        filter: drop-shadow(0 0 0px rgba(105, 255, 61, 0));
+      }
+      50% {
+        filter: drop-shadow(0 0 10px rgba(170, 255, 77, 0.4)) drop-shadow(0 0 20px rgba(232, 255, 72, 0.2));
+      }
+    }
+
+    @keyframes ambientSweep {
+      0% {
+        transform: translateX(-400px) skewX(-20deg);
+      }
+      50% {
+        transform: translateX(600px) skewX(-20deg);
+      }
+      100% {
+        transform: translateX(-400px) skewX(-20deg);
+      }
+    }
+
+    @keyframes driftOrb1 {
+      0%, 100% {
+        transform: translate(0px, 0px) scale(1);
+        opacity: 0.35;
+      }
+      50% {
+        transform: translate(45px, -25px) scale(1.15);
+        opacity: 0.65;
+      }
+    }
+
+    @keyframes driftOrb2 {
+      0%, 100% {
+        transform: translate(0px, 0px) scale(1);
+        opacity: 0.25;
+      }
+      50% {
+        transform: translate(-35px, 20px) scale(1.1);
+        opacity: 0.55;
+      }
+    }
+
+    @keyframes pulseNode {
+      0%, 100% {
+        r: 3.5;
+        opacity: 0.8;
+      }
+      50% {
+        r: 5.5;
+        opacity: 1;
+        filter: drop-shadow(0 0 4px #AAFF4D);
+      }
+    }
+
+    @keyframes traceTrend {
+      0%, 100% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: 24;
+      }
+    }
+
+    /* Subtle Data Flow Animation for Lifecycle Connectors */
+    @keyframes lifecycleFlow {
+      from {
+        stroke-dashoffset: 24;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .pipeline-connector {
+      stroke: #3A4D66;
+      stroke-width: 1.2;
+      stroke-linecap: round;
+      stroke-dasharray: 4 6;
+      animation: lifecycleFlow 2.8s linear infinite;
+    }
+
+    /* Subtle Lifecycle Icon Breathing Animation */
+    @keyframes lifecycleGlow {
+      0%, 100% {
+        opacity: 0.42;
+        stroke: #D0D4DC;
+        filter: drop-shadow(0 0 0px rgba(105, 255, 61, 0));
+      }
+      50% {
+        opacity: 0.95;
+        stroke: #F5F7FB;
+        filter: drop-shadow(0 0 3px rgba(170, 255, 77, 0.45));
+      }
+    }
+
+    .step-node-1 { animation: lifecycleGlow 6s ease-in-out 0.0s infinite; }
+    .step-node-2 { animation: lifecycleGlow 6s ease-in-out 1.2s infinite; }
+    .step-node-3 { animation: lifecycleGlow 6s ease-in-out 2.4s infinite; }
+    .step-node-4 { animation: lifecycleGlow 6s ease-in-out 3.6s infinite; }
+    .step-node-5 { animation: lifecycleGlow 6s ease-in-out 4.8s infinite; }
+
+    /* Animation Classes */
+    .hero-text {
+      animation: textSlideFade 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .title-highlight {
+      animation: textShimmerWave 7s ease-in-out infinite;
+    }
+    .glow-layer {
+      animation: ambientSweep 22s ease-in-out infinite;
+    }
+    .ambient-orb-1 {
+      animation: driftOrb1 16s ease-in-out infinite;
+    }
+    .ambient-orb-2 {
+      animation: driftOrb2 19s ease-in-out infinite;
+    }
+    .live-node-1 {
+      animation: pulseNode 4s ease-in-out infinite;
+    }
+    .live-node-2 {
+      animation: pulseNode 4.5s ease-in-out 1.2s infinite;
+    }
+    .live-node-3 {
+      animation: pulseNode 5s ease-in-out 2.4s infinite;
+    }
+    .trend-line {
+      stroke-dasharray: 8 6;
+      animation: traceTrend 14s linear infinite;
+    }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="350" fill="url(#bgGradient)" />
+
+  <!-- Minimal Animated Background Elements -->
+  <g class="ambient-orb-1">
+    <circle cx="280" cy="110" r="180" fill="url(#orbGrad1)" />
+  </g>
+  <g class="ambient-orb-2">
+    <circle cx="880" cy="220" r="220" fill="url(#orbGrad2)" />
+  </g>
+
+  <!-- Ambient Moving Glow Sweep -->
+  <g opacity="0.6">
+    <rect class="glow-layer" y="0" width="700" height="350" fill="url(#sweepGlow)" />
+  </g>
+
+  <!-- Right Visual: Clean Analytical Dashboard Structure -->
+  <g transform="translate(680, 48)">
+    <!-- Dashboard Frame (Subtle) -->
+    <rect x="0" y="0" width="440" height="195" rx="6" fill="#0C1420" fill-opacity="0.4" stroke="#1F2C3F" stroke-width="1" />
+    
+    <!-- Grid System -->
+    <g stroke="#162232" stroke-width="1">
+      <line x1="40" y1="38" x2="405" y2="38" stroke-dasharray="2 4" />
+      <line x1="40" y1="80" x2="405" y2="80" stroke-dasharray="2 4" />
+      <line x1="40" y1="122" x2="405" y2="122" stroke-dasharray="2 4" />
+      <line x1="40" y1="165" x2="405" y2="165" />
+
+      <!-- Vertical Guides -->
+      <line x1="110" y1="25" x2="110" y2="165" stroke-dasharray="2 4" opacity="0.4" />
+      <line x1="185" y1="25" x2="185" y2="165" stroke-dasharray="2 4" opacity="0.4" />
+      <line x1="260" y1="25" x2="260" y2="165" stroke-dasharray="2 4" opacity="0.4" />
+      <line x1="335" y1="25" x2="335" y2="165" stroke-dasharray="2 4" opacity="0.4" />
+    </g>
+
+    <!-- Axis Labels -->
+    <text x="18" y="41" class="chart-label">1.0</text>
+    <text x="18" y="83" class="chart-label">0.5</text>
+    <text x="18" y="125" class="chart-label">0.2</text>
+    <text x="18" y="168" class="chart-label">0.0</text>
+
+    <text x="104" y="182" class="chart-label">Q1</text>
+    <text x="179" y="182" class="chart-label">Q2</text>
+    <text x="254" y="182" class="chart-label">Q3</text>
+    <text x="329" y="182" class="chart-label">Q4</text>
+
+    <!-- Secondary Metric (Subtle Bars) -->
+    <g fill="#16283D" opacity="0.45">
+      <rect x="98" y="105" width="24" height="60" rx="2" />
+      <rect x="173" y="85" width="24" height="80" rx="2" />
+      <rect x="248" y="60" width="24" height="105" rx="2" />
+      <rect x="323" y="42" width="24" height="123" rx="2" />
+    </g>
+
+    <!-- Shaded Area Under Primary Curve -->
+    <path d="M 40 144 
+             C 90 140, 120 125, 160 108 
+             C 205 90, 230 96, 270 68 
+             C 310 40, 350 44, 405 28 
+             L 405 165 L 40 165 Z" 
+          fill="url(#areaGrad)" />
+
+    <!-- Trend Target Line -->
+    <line class="trend-line" x1="40" y1="138" x2="405" y2="36" stroke="#3A506B" stroke-width="1.2" />
+
+    <!-- Primary Metric Spline -->
+    <path d="M 40 144 
+             C 90 140, 120 125, 160 108 
+             C 205 90, 230 96, 270 68 
+             C 310 40, 350 44, 405 28" 
+          fill="none" 
+          stroke="url(#lineGrad)" 
+          stroke-width="2.5" 
+          stroke-linecap="round" />
+
+    <!-- Key Performance Nodes -->
+    <circle cx="160" cy="108" r="3" fill="#0C1119" stroke="#69FF3D" stroke-width="1.8" />
+    <circle cx="270" cy="68" r="3.5" class="live-node-2" fill="#AAFF4D" filter="url(#softGlow)" />
+    <circle cx="405" cy="28" r="4" class="live-node-1" fill="#E8FF48" filter="url(#softGlow)" />
+
+    <!-- Peak Insight Callout Bubble -->
+    <g transform="translate(330, 8)">
+      <rect x="0" y="0" width="72" height="18" rx="3" fill="#132014" stroke="#69FF3D" stroke-width="0.8" opacity="0.9" />
+      <text x="36" y="12" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="600" fill="#E8FF48" letter-spacing="0.8">+34.8%</text>
+    </g>
+  </g>
+
+  <!-- Left Content Hierarchy -->
+  <g class="hero-text">
+    <!-- Role Identifier Badge -->
+    <g transform="translate(90, 68)">
+      <rect x="0" y="0" width="138" height="24" rx="12" fill="#13231B" stroke="#2B4D32" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#69FF3D" />
+      <text x="24" y="15.5" class="badge-text">DATA ANALYST</text>
+    </g>
+
+    <!-- Main Title with Dynamic Highlight Effect -->
+    <text x="90" y="138" class="title title-highlight">FATIMA ZEHRA</text>
+
+    <!-- Tagline -->
+    <text x="92" y="174" class="tagline">Turning data into insights, decisions &amp; impact.</text>
+
+    <!-- Tech Stack / Tooling Ecosystem -->
+    <g transform="translate(92, 218)">
+      <text class="tech-stack">
+        <tspan fill="#F5F7FB">PYTHON</tspan>
+        <tspan fill="#3E4C5E">  &#8226;  </tspan>
+        <tspan fill="#F5F7FB">SQL</tspan>
+        <tspan fill="#3E4C5E">  &#8226;  </tspan>
+        <tspan fill="#F5F7FB">POWER BI</tspan>
+        <tspan fill="#3E4C5E">  &#8226;  </tspan>
+        <tspan fill="#F5F7FB">TABLEAU</tspan>
+        <tspan fill="#3E4C5E">  &#8226;  </tspan>
+        <tspan fill="#F5F7FB">EXCEL</tspan>
+        <tspan fill="#3E4C5E">  &#8226;  </tspan>
+        <tspan fill="#F5F7FB">R</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- BOTTOM SECTION: Analytics Lifecycle Icons with Animated Flow Connectors -->
+  <g transform="translate(90, 260)">
+    <!-- Lifecycle Pipeline Track Line -->
+    <line x1="0" y1="0" x2="1020" y2="0" stroke="#162232" stroke-width="1" />
+
+    <!-- 1. DATA CLEANING -->
+    <g transform="translate(48, 10)">
+      <g class="step-node-1" fill="none" stroke="#D0D4DC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="12,2 28,2 22,12 22,21 18,23 18,12" />
+        <line x1="14" y1="5" x2="26" y2="5" opacity="0.6" />
+        <path d="M28,14 L30,16 M31,13 L33,15" stroke-width="1" />
+      </g>
+      <text x="20" y="40" class="step-label">DATA CLEANING</text>
+    </g>
+
+    <!-- Flow Connector 1-2 -->
+    <path class="pipeline-connector" d="M110,22 L225,22" />
+
+    <!-- 2. SQL QUERIES -->
+    <g transform="translate(265, 10)">
+      <g class="step-node-2" fill="none" stroke="#D0D4DC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+        <ellipse cx="20" cy="5" rx="13" ry="3.5" />
+        <path d="M7,5 v6 c0,2 5.8,3.5 13,3.5 s13,-1.5 13,-3.5 v-6" />
+        <path d="M7,11 v6 c0,2 5.8,3.5 13,3.5 s13,-1.5 13,-3.5 v-6" />
+        <path d="M25,18 l3,2 l-3,2" stroke-width="1.3" />
+        <line x1="30" y1="22" x2="34" y2="22" stroke-width="1.3" />
+      </g>
+      <text x="20" y="40" class="step-label">SQL QUERIES</text>
+    </g>
+
+    <!-- Flow Connector 2-3 -->
+    <path class="pipeline-connector" d="M335,22 L450,22" />
+
+    <!-- 3. SEMANTIC MODELING -->
+    <g transform="translate(490, 10)">
+      <g class="step-node-3" fill="none" stroke="#D0D4DC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Central Fact Entity -->
+        <rect x="14" y="8" width="12" height="9" rx="1.5" />
+        <!-- Dimension Entities -->
+        <rect x="1" y="2" width="7" height="6" rx="1" opacity="0.8" />
+        <rect x="32" y="2" width="7" height="6" rx="1" opacity="0.8" />
+        <rect x="16" y="20" width="8" height="5" rx="1" opacity="0.8" />
+        <!-- Relation Edges -->
+        <line x1="8" y1="6" x2="14" y2="10" />
+        <line x1="32" y1="6" x2="26" y2="10" />
+        <line x1="20" y1="17" x2="20" y2="20" />
+      </g>
+      <text x="20" y="40" class="step-label">SEMANTIC MODELING</text>
+    </g>
+
+    <!-- Flow Connector 3-4 -->
+    <path class="pipeline-connector" d="M560,22 L680,22" />
+
+    <!-- 4. DAX MEASURES -->
+    <g transform="translate(720, 10)">
+      <g class="step-node-4" fill="none" stroke="#D0D4DC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="20" cy="12.5" r="11" stroke-dasharray="2 2" opacity="0.5" />
+        <!-- Stylized fx glyph -->
+        <path d="M14,17 C15,11 16,8 18,8 C19.5,8 20,9 19,13 C18,17 19.5,17 21,16" />
+        <line x1="13" y1="12" x2="20" y2="12" />
+        <!-- Mini Math Operator accents -->
+        <line x1="24" y1="10" x2="28" y2="14" stroke-width="1" />
+        <line x1="28" y1="10" x2="24" y2="14" stroke-width="1" />
+      </g>
+      <text x="20" y="40" class="step-label">DAX MEASURES</text>
+    </g>
+
+    <!-- Flow Connector 4-5 -->
+    <path class="pipeline-connector" d="M790,22 L900,22" />
+
+    <!-- 5. INTERACTIVE REPORTING -->
+    <g transform="translate(940, 10)">
+      <g class="step-node-5" fill="none" stroke="#D0D4DC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Display Monitor -->
+        <rect x="6" y="2" width="28" height="18" rx="2" />
+        <line x1="15" y1="20" x2="13" y2="24" />
+        <line x1="25" y1="20" x2="27" y2="24" />
+        <line x1="11" y1="24" x2="29" y2="24" />
+        <!-- Dashboard Widgets Inside Screen -->
+        <path d="M10,13 L14,9 L19,12 L24,7" stroke-width="1" />
+        <line x1="10" y1="16" x2="18" y2="16" stroke-width="1" opacity="0.6" />
+        <rect x="23" y="13" width="5" height="4" rx="0.5" stroke-width="0.8" />
+      </g>
+      <text x="20" y="40" class="step-label">INTERACTIVE REPORTING</text>
+    </g>
+  </g>
+
+  <!-- Interactive Cursor Spotlight Overlay -->
+  <circle id="spotlight-disc" cx="600" cy="175" r="280" fill="url(#cursorSpotlight)" />
+
+  <!-- Outer Border Frame -->
+  <rect x="0.5" y="0.5" width="1199" height="349" fill="none" stroke="#1D2839" stroke-width="1" style="pointer-events: none;" />
+
+  <!-- Embedded Pointer Tracking Script -->
+  <script type="text/javascript">
+    <![CDATA[
+    (function() {
+      var svg = document.getElementById('banner-svg');
+      var spot = document.getElementById('spotlight-disc');
+      if (!svg || !spot) return;
+
+      var targetX = 600, targetY = 175;
+      var currentX = 600, currentY = 175;
+      var isHovered = false;
+
+      function updateCoords(e) {
+        var pt = svg.createSVGPoint();
+        pt.x = e.clientX;
+        pt.y = e.clientY;
+        var loc = pt.matrixTransform(svg.getScreenCTM().inverse());
+        targetX = loc.x;
+        targetY = loc.y;
+      }
+
+      svg.addEventListener('mouseenter', function(e) {
+        isHovered = true;
+        updateCoords(e);
+        currentX = targetX;
+        currentY = targetY;
+        spot.setAttribute('cx', currentX);
+        spot.setAttribute('cy', currentY);
+      });
+
+      svg.addEventListener('mousemove', function(e) {
+        updateCoords(e);
+      });
+
+      svg.addEventListener('mouseleave', function() {
+        isHovered = false;
+      });
+
+      function render() {
+        if (isHovered) {
+          currentX += (targetX - currentX) * 0.15;
+          currentY += (targetY - currentY) * 0.15;
+          spot.setAttribute('cx', currentX.toFixed(2));
+          spot.setAttribute('cy', currentY.toFixed(2));
+        }
+        requestAnimationFrame(render);
+      }
+      requestAnimationFrame(render);
+    })();
+    ]]>
+  </script>
+</svg>
