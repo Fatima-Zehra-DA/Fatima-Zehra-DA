@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="100%" height="100%">
+  <title>End-to-End Data Analytics Workflow</title>
+  <desc>A five-stage horizontal data analytics pipeline: Ingestion, Cleaning, Transformation, Exploratory Analysis, and Visualization.</desc>
+
+  <defs>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02" />
+    </linearGradient>
+
+    <linearGradient id="card-grad-active" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#69FF3D" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02" />
+    </linearGradient>
+
+    <radialGradient id="ambient-glow" cx="20%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#69FF3D" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#080C12" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="line-flow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#69FF3D" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#69FF3D" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#AAFF4D" stop-opacity="1" />
+    </linearGradient>
+
+    <marker id="arrowhead" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
+      <path d="M 0 0 L 6 3 L 0 6 Z" fill="#69FF3D" opacity="0.8" />
+    </marker>
+
+    <style>
+      .font-main {
+        font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      /* Subtle Ambient Background Breath */
+      @keyframes ambientPulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.7; }
+      }
+      .ambient-glow {
+        animation: ambientPulse 8s ease-in-out infinite;
+      }
+
+      /* Subtitle Underline Expand (Left-aligned) */
+      @keyframes expandLine {
+        0% { transform: scaleX(0.05); opacity: 0.2; }
+        45% { transform: scaleX(1); opacity: 1; }
+        80% { transform: scaleX(1); opacity: 0.8; }
+        100% { transform: scaleX(0.05); opacity: 0.2; }
+      }
+      .anim-underline {
+        transform-origin: 55px 92px;
+        animation: expandLine 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      /* Sequential Card Border Sweep */
+      @keyframes borderSweep {
+        0%, 100% { stroke: rgba(255, 255, 255, 0.10); }
+        50% { stroke: #69FF3D; }
+      }
+      .card-box {
+        transition: stroke 0.3s ease;
+      }
+      .card-1 { animation: borderSweep 6s ease-in-out infinite; animation-delay: 0.0s; }
+      .card-2 { animation: borderSweep 6s ease-in-out infinite; animation-delay: 1.2s; }
+      .card-3 { animation: borderSweep 6s ease-in-out infinite; animation-delay: 2.4s; }
+      .card-4 { animation: borderSweep 6s ease-in-out infinite; animation-delay: 3.6s; }
+      .card-5 { animation: borderSweep 6s ease-in-out infinite; animation-delay: 4.8s; }
+
+      /* Continuous Pipeline Dash Stream */
+      @keyframes dashStream {
+        from { stroke-dashoffset: 64; }
+        to { stroke-dashoffset: 0; }
+      }
+      .pipeline-pulse {
+        stroke-dasharray: 8 8;
+        animation: dashStream 1.5s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="450" fill="#080C12" />
+  <rect width="1200" height="450" fill="url(#ambient-glow)" class="ambient-glow" />
+
+  <g id="header-group" class="font-main">
+    <text x="55" y="52" text-anchor="start" font-size="20" font-weight="800" fill="#F5F7FB" letter-spacing="4">
+      MY END-TO-END DATA ANALYTICS WORKFLOW
+    </text>
+
+    <text x="55" y="80" text-anchor="start" font-size="13" font-weight="500" fill="#D0D4DC" letter-spacing="1">
+      From raw data <tspan fill="#69FF3D" font-weight="bold">→</tspan> actionable business insight
+    </text>
+
+    <path d="M 55 92 L 350 92" stroke="#69FF3D" stroke-width="2" stroke-linecap="round" class="anim-underline" />
+  </g>
+
+  <g id="pipeline-connectors">
+    <line x1="235" y1="262" x2="285" y2="262" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+    <line x1="465" y1="262" x2="515" y2="262" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+    <line x1="695" y1="262" x2="745" y2="262" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+    <line x1="925" y1="262" x2="975" y2="262" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+
+    <line x1="235" y1="262" x2="280" y2="262" stroke="#69FF3D" stroke-width="2" marker-end="url(#arrowhead)" class="pipeline-pulse" />
+    <line x1="465" y1="262" x2="510" y2="262" stroke="#69FF3D" stroke-width="2" marker-end="url(#arrowhead)" class="pipeline-pulse" />
+    <line x1="695" y1="262" x2="740" y2="262" stroke="#69FF3D" stroke-width="2" marker-end="url(#arrowhead)" class="pipeline-pulse" />
+    <line x1="925" y1="262" x2="970" y2="262" stroke="#69FF3D" stroke-width="2" marker-end="url(#arrowhead)" class="pipeline-pulse" />
+  </g>
+
+  <g id="workflow-cards" class="font-main">
+
+    <g id="card-01" transform="translate(55, 150)">
+      <rect width="180" height="225" rx="16" fill="url(#card-grad)" stroke="rgba(255,255,255,0.10)" stroke-width="1.2" class="card-box card-1" />
+      
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#69FF3D" letter-spacing="1">01</text>
+
+      <g transform="translate(20, 52)" stroke="#69FF3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <ellipse cx="14" cy="6" rx="13" ry="4.5" />
+        <path d="M 1 6 v 7 c 0 2.5 5.8 4.5 13 4.5 s 13 -2 13 -4.5 V 6" />
+        <path d="M 1 13 v 7 c 0 2.5 5.8 4.5 13 4.5 s 13 -2 13 -4.5 V 13" />
+      </g>
+
+      <text x="20" y="112" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">Ingestion &amp;</text>
+      <text x="20" y="130" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">Collection</text>
+
+      <g transform="translate(20, 168)">
+        <rect width="140" height="24" rx="6" fill="#0C1119" stroke="none" />
+        <text x="70" y="16" text-anchor="middle" font-size="10.5" font-weight="500" fill="#69FF3D">SQL  ·  APIs  ·  Excel</text>
+      </g>
+    </g>
+
+    <g id="card-02" transform="translate(285, 150)">
+      <rect width="180" height="225" rx="16" fill="url(#card-grad)" stroke="rgba(255,255,255,0.10)" stroke-width="1.2" class="card-box card-2" />
+
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#69FF3D" letter-spacing="1">02</text>
+
+      <g transform="translate(20, 52)" stroke="#69FF3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M 2 4 h 24 l -9 11 v 9 l -6 -3 v -6 Z" />
+        <line x1="18" y1="16" x2="26" y2="16" stroke="#AAFF4D" stroke-dasharray="2 2" />
+      </g>
+
+      <text x="20" y="112" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">Cleaning &amp;</text>
+      <text x="20" y="130" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">Preprocessing</text>
+
+      <g transform="translate(20, 168)">
+        <rect width="140" height="24" rx="6" fill="#0C1119" stroke="none" />
+        <text x="70" y="16" text-anchor="middle" font-size="9" font-weight="500" fill="#69FF3D">Pandas · Power Query · Excel</text>
+      </g>
+    </g>
+
+    <g id="card-03" transform="translate(515, 150)">
+      <rect width="180" height="225" rx="16" fill="url(#card-grad)" stroke="rgba(255,255,255,0.10)" stroke-width="1.2" class="card-box card-3" />
+
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#69FF3D" letter-spacing="1">03</text>
+
+      <g transform="translate(20, 52)" stroke="#69FF3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <rect x="1" y="1" width="9" height="9" rx="2" />
+        <rect x="18" y="1" width="9" height="9" rx="2" />
+        <rect x="9.5" y="17" width="9" height="9" rx="2" />
+        <path d="M 10 5.5 h 8" />
+        <path d="M 5.5 10 v 2.5 l 4 4.5" />
+        <path d="M 22.5 10 v 2.5 l -4 4.5" />
+      </g>
+
+      <text x="20" y="112" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">Transformation</text>
+      <text x="20" y="130" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">&amp; Modeling</text>
+
+      <g transform="translate(20, 168)">
+        <rect width="140" height="24" rx="6" fill="#0C1119" stroke="none" />
+        <text x="70" y="16" text-anchor="middle" font-size="10" font-weight="500" fill="#69FF3D">DAX · SQL · BigQuery</text>
+      </g>
+    </g>
+
+    <g id="card-04" transform="translate(745, 150)">
+      <rect width="180" height="225" rx="16" fill="url(#card-grad)" stroke="rgba(255,255,255,0.10)" stroke-width="1.2" class="card-box card-4" />
+
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#69FF3D" letter-spacing="1">04</text>
+
+      <g transform="translate(20, 52)" stroke="#69FF3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <circle cx="11" cy="11" r="8" />
+        <line x1="17" y1="17" x2="25" y2="25" />
+        <path d="M 7 13 l 3 -4 l 2 2 l 3 -3" stroke="#AAFF4D" stroke-width="1.5" />
+      </g>
+
+      <text x="20" y="112" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">Exploratory</text>
+      <text x="20" y="130" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">Analysis (EDA)</text>
+
+      <g transform="translate(20, 156)">
+        <rect width="140" height="42" rx="6" fill="#0C1119" stroke="none" />
+        <text x="70" y="16" text-anchor="middle" font-size="9" font-weight="500" fill="#69FF3D">Jupyter · Seaborn · Plotly</text>
+        <text x="70" y="31" text-anchor="middle" font-size="9" font-weight="500" fill="#69FF3D">R (tidyverse) · SQL</text>
+      </g>
+    </g>
+
+    <g id="card-05" transform="translate(975, 150)">
+      <rect width="180" height="225" rx="16" fill="url(#card-grad-active)" stroke="rgba(255,255,255,0.10)" stroke-width="1.2" class="card-box card-5" />
+
+      <rect x="25" y="0" width="130" height="2" rx="1" fill="#69FF3D" />
+
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#E8FF48" letter-spacing="1">05</text>
+
+      <g transform="translate(20, 52)" stroke="#69FF3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <rect x="2" y="2" width="23" height="17" rx="2" />
+        <line x1="6" y1="14" x2="6" y2="12" stroke="#AAFF4D" />
+        <line x1="10" y1="14" x2="10" y2="9" stroke="#AAFF4D" />
+        <line x1="14" y1="14" x2="14" y2="7" stroke="#AAFF4D" />
+        <path d="M 18 10 l -3 -2" />
+        <line x1="9" y1="23" x2="18" y2="23" />
+        <line x1="13.5" y1="19" x2="13.5" y2="23" />
+      </g>
+
+      <text x="20" y="112" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">Visualization</text>
+      <text x="20" y="130" font-size="14" font-weight="700" fill="#F5F7FB" letter-spacing="0.2">&amp; Reporting</text>
+
+      <g transform="translate(20, 168)">
+        <rect width="140" height="24" rx="6" fill="#0C1119" stroke="none" />
+        <text x="70" y="16" text-anchor="middle" font-size="10.5" font-weight="600" fill="#69FF3D">Tableau  ·  Power BI</text>
+      </g>
+    </g>
+
+  </g>
+
+  <g id="footer-status" class="font-main">
+    <text x="55" y="415" font-size="11" font-weight="500" fill="#7F8794" letter-spacing="0.5">Continuous Production Pipeline</text>
+  </g>
+</svg>
