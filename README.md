@@ -92,8 +92,6 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 ## GitHub Statistics
 
-## GitHub Statistics
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
