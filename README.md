@@ -3,9 +3,16 @@
 
 
 <!-- HEADER BANNER -->
-<div align="center">
+<!-- <div align="center">
   <img src="assets/profile-banner.svg" width="100%" />
-</div>
+</div> -->
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner.svg">
+  <img src="assets/profile-banner.svg" alt="profile-banner" width="100%">
+</picture>
 
 <br>
 <!-- QUICK LINKS / BADGES -->
