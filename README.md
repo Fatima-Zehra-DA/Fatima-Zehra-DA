@@ -121,7 +121,9 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 </div>
 
 
-<img src="https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.gif" alt="GitHub Snake Animation" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.svg" alt="GitHub Snake Animation" />
+</div>
 
 
 
