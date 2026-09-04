@@ -56,9 +56,10 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 ## Featured Projects
 
+
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" >
       <img src="assets/retail-sales.png">
       <h3>◈ Retail Sales Analysis</h3>
       <p>Analyzed 2,000 retail transactions ($911K revenue) using PostgreSQL and Power BI. Applied advanced SQL (CTEs, window functions) to evaluate revenue growth and demographics, building an interactive dashboard to track core KPIs and guide business strategy.</p>
@@ -74,6 +75,9 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
     </td>
   </tr>
 </table>
+
+
+
 
 ## Technical Toolkit
 
