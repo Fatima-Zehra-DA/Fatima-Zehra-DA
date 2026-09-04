@@ -92,15 +92,24 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 ## GitHub Statistics
 
+## GitHub Statistics
 
-[![Fatima's GitHub stats](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA)](https://github.com/Fatima-Zehra-DA/github-readme-stats)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+</div>
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+<br>
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true" alt="Trophies" />
+</div>
 
-[![Fatima's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Fatima-Zehra-DA&theme=github-dark)](https://github.com/ashutosh00712/github-readme-activity-graph)
+<br>
 
-
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fatima-Zehra-DA&theme=github-dark" alt="Activity Graph" />
+</div>
 
 
 
