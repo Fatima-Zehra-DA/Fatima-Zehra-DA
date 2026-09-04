@@ -113,10 +113,14 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 
 
-
+<br/>
 
 <!-- Streaks -->
-![Fatima's GitHub Streak](https://streak-stats.demolab.com/?user=Fatima-Zehra-DA&theme=dark)
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Fatima-Zehra-DA&background=080C12&ring=69FF3D&fire=E8FF48&currStreakNum=E8FF48&currStreakLabel=E8FF48&sideNums=AAFF4D&sideLabels=ffffff&dates=7F8794&hide_border=true" alt="GitHub Streak" />
+</div>
+
+
 
 ![Snake Animation](https://raw.githubusercontent.com/Fatima-Zehra-DA/Fatima-Zehra-DA/output/github-snake-dark.svg)
 
