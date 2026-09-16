@@ -64,15 +64,15 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
       <img src="assets/retail-sales.png">
       <h3>◈ Retail Sales Analysis</h3>
       <p>Analyzed 2,000 retail transactions ($911K revenue) using PostgreSQL and Power BI. Applied advanced SQL (CTEs, window functions) to evaluate revenue growth and demographics, building an interactive dashboard to track core KPIs and guide business strategy.</p>
-      <p><b>Tech Stack:</b> SQL . Excel . Power BI · DAX  </p>
-      <a href="https://github.com/Fatima-Zehra-DA/sql_retail_sales_project_001"><b>Explore Case Study →</b></a>
+      <p><b>Tech Stack:</b> SQL . Excel . Power BI · DAX  </p>      
+      <a href="https://github.com/Fatima-Zehra-DA/sql_retail_sales_project_001"><img src="https://img.shields.io/badge/Explore_Case_Study-957fb9?style=for-the-badge&color=blue" alt="Explore Case Study →" /></a>
     </td>
     <td width="50%" valign="top">
       <img src="assets/churn-analysis.png">
       <h3>◈ Customer Churn & Retention Analysis</h3>
       <p>Analyzed telecom customer attrition across 7,000+ records using Power BI, DAX, and Power Query. Engineered features and built an executive dashboard identifying key churn drivers—such as month-to-month contracts—to deliver data-driven retention strategies.</p>
       <p><b>Tech Stack:</b> Python · Pandas · SQL · Tableau</p>
-      <a href="https://github.com/Fatima-Zehra-DA/Customer-Churn-Analysis--PowerBI-"><b>Explore Case Study →</b></a>
+      <a href="https://github.com/Fatima-Zehra-DA/Customer-Churn-Analysis--PowerBI-"><img src="https://img.shields.io/badge/Explore_Case_Study-red?style=for-the-badge&Color=red" alt="Explore Case Study →" /></a>
     </td>
   </tr>
 </table>
@@ -86,7 +86,7 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
       <h3>◈ HR Analysis Dashboard</h3>
       <p>An end-to-end Power BI dashboard analyzing employee attrition patterns and retention drivers across 1,417 employee records. Utilized Power Query for data cleaning and transformation, developed custom DAX measures for core KPIs (including a 16.3% attrition rate and workforce demographics), and built interactive visuals with dynamic filtering across departments, age brackets, salary slabs, and job satisfaction levels to support data-driven HR decisions.</p>
       <p><b>Tech Stack:</b> Power BI . Power Query · DAX  </p>
-      <a href="https://github.com/Fatima-Zehra-DA/HR Analytics Dashboard | Power BI"><b>Explore Case Study →</b></a>
+ <a href="https://github.com/Fatima-Zehra-DA/HR-Analysis-Dashboard-PowerBI"><img src="https://img.shields.io/badge/Explore_Case_Study-957fb9?style=for-the-badge&logo=powerbi&logoColor=351d49&color=351d49" alt="Explore Case Study →" /></a>
     </td>
   
 </table>
