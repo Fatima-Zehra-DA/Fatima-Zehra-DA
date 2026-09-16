@@ -37,6 +37,7 @@
 
 <br/>
 
+
 ## About Me
 
 I am a **Data Analyst** specializing in transforming raw, complex data into decision-ready business insights. My analytics workflow spans the full lifecycle—from data cleaning and SQL queries to semantic modeling, DAX measures, and interactive reporting solutions.
@@ -133,22 +134,16 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 ## GitHub Statistics
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
-</div>
-
-<br>
+## GitHub Statistics 
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true" alt="Trophies" />
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true)](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true)](https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true)
+
 </div>
 
-<br>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fatima-Zehra-DA&theme=github-dark" alt="Activity Graph" />
-</div>
 
 
 
