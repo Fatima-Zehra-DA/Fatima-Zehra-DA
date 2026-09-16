@@ -77,7 +77,19 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
   </tr>
 </table>
 
+## Recent Projects
 
+<table>
+  <tr>
+    <td width="100%" valign="top" >
+      <img src="assets/HR-Dashboard.png">
+      <h3>◈ HR Analysis Dashboard</h3>
+      <p>An end-to-end Power BI dashboard analyzing employee attrition patterns and retention drivers across 1,417 employee records. Utilized Power Query for data cleaning and transformation, developed custom DAX measures for core KPIs (including a 16.3% attrition rate and workforce demographics), and built interactive visuals with dynamic filtering across departments, age brackets, salary slabs, and job satisfaction levels to support data-driven HR decisions.</p>
+      <p><b>Tech Stack:</b> Power BI . Power Query · DAX  </p>
+      <a href="https://github.com/Fatima-Zehra-DA/HR Analytics Dashboard | Power BI"><b>Explore Case Study →</b></a>
+    </td>
+  
+</table>
 
 
 ## Technical Toolkit
@@ -136,14 +148,20 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+</div>
 
+<br>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true)
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true" alt="Trophies" />
+</div>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true)
+<br>
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true)
-
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fatima-Zehra-DA&theme=github-dark" alt="Activity Graph" />
 </div>
 
 
