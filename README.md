@@ -134,7 +134,6 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 ## GitHub Statistics
 
-## GitHub Statistics 
 
 <div align="center">
 
@@ -144,7 +143,7 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 </div>
 
-
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true)](https://github.com/Fatima-Zehra-DA)
 
 
 <br/>
