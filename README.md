@@ -137,13 +137,16 @@ I am a **Data Analyst** specializing in transforming raw, complex data into deci
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true)](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true)](https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Fatima-Zehra-DA&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Fatima-Zehra-DA&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true)
 
 </div>
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Fatima-Zehra-DA&theme=flat&no-frame=true)](https://github.com/Fatima-Zehra-DA)
+
 
 
 <br/>
