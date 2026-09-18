@@ -35,6 +35,14 @@
   -->
 </div>
 
+<div align="center">
+[![GitHub Profile](https://img.shields.io/badge/GitHub-Fatima_Zehra-brightgreen)](https://github.com/Fatima-Zehra-DA)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/fatima-zehra-308b85358/)
+[![Tableau](https://img.shields.io/badge/Tableau-Public-orange)](https://public.tableau.com/app/profile/fatima.zehra7709/vizzes)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-cyan)](https://www.kaggle.com/fatimazehra2305/)
+[![Gmail](https://img.shields.io/badge/Gmail-Email-red)](mailto:fatimazehra2305@gmail.com)
+</div>
+
 <br/>
 
 
