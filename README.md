@@ -2,11 +2,6 @@
 
 
 
-<!-- HEADER BANNER -->
-<!-- <div align="center">
-  <img src="assets/profile-banner.svg" width="100%" />
-</div> -->
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner.svg">
