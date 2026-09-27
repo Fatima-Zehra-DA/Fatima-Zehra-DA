@@ -23,6 +23,8 @@
   <a href="mailto:fatimazehra2305@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+
+  [![HackerRank](https://img.shields.io/badge/HackerRank-SQL_Gold-brightgreen)](https://www.hackerrank.com/fatimazehra2305)
   <!--
    <a href="https://kaggle.com/your-kaggle-handle">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
