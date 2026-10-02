@@ -31,7 +31,7 @@
   </a>
   -->
 </div>
-
+![Profile views](https://komarev.com/ghpvc/?username=Fatima-Zehra-DA&style=flat-square&color=blueviolet)
 
 <br/>
 
